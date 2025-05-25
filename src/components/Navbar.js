@@ -1,10 +1,32 @@
-export default function Navbar({ icon, title, children }) {
+import React from 'react';
+import './Navbar.css';
+
+const Navbar = () => {
   return (
-    <div className="p-6 bg-white rounded-lg shadow">
-      <div className="text-4xl mb-4">{icon}</div>
-      <h3 className="font-bold mb-2">{title}</h3>
-      <p>{children}</p>
-      OpsPad | | | Home | Features | Pricing | Contact
-    </div>
+    <nav className="navbar">
+      <div className="navbar-left">
+        <a href="/" className="logo">
+          ShopNow
+        </a>
+      </div>
+      <div className="navbar-center">
+        <ul className="nav-links">
+          <li><a href="/products">Products</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div className="navbar-right">
+        <a href="/cart" className="cart-icon">
+          <i className="fas fa-shopping-cart"></i>
+          <span className="cart-count">0</span>
+        </a>
+        <a href="/account" className="user-icon">
+          <i className="fas fa-user"></i>
+        </a>
+      </div>
+    </nav>
   );
-}
+};
+
+export default Navbar;
