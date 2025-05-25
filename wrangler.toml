@@ -5,7 +5,7 @@ compatibility_date = "2025-05-24"
 workers_dev        = true
 account_id         = "65e037654486897c5f9b14fba97d2b14"
 
-main = "index.js"
+main = "workers-site/index.js"
 
 [build]
 command = "npm run build"
