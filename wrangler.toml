@@ -1,0 +1,21 @@
+# wrangler.toml
+
+# The name Cloudflare will use for your Worker
+name               = "opspad"
+
+# The Workers runtime date you’re targeting (YYYY-MM-DD)
+compatibility_date = "2025-05-24"
+
+# If you use the workers.dev subdomain during development:
+workers_dev        = true
+
+# ⚠️ Replace with your own Account ID (found on the Overview page in the dashboard)
+account_id         = "65e037654486897c5f9b14fba97d2b14"
+
+# Optional: Uncomment and fill in if you have a zone-based route to publish to
+# route              = "example.com/*"
+# zone_id            = "YOUR_ZONE_ID_HERE"
+
+# Optional: If you’re uploading static assets, point to the directory:
+# [assets]
+#   directory = "./dist"
