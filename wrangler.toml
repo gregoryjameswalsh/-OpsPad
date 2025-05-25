@@ -10,4 +10,7 @@ command = "npm run build"
 
 [site]
 bucket = "./build"       # CRA output
-entry-point = "."        # root of your project
+
+main = "index.js"
+
+
