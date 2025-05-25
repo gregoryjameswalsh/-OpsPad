@@ -1,17 +1,17 @@
 # wrangler.toml
 
 name               = "opspad"
-compatibility_date = "2025-05-24"
+compatibility_date = "2025-05-25"
 workers_dev        = true
 account_id         = ""
 
-main = "workers-site/index.js"
+main = "./index.js"
 
 [build]
 command = "npm run build"
 
-[site]
-bucket = "build"       # CRA output
+# [site]
+# bucket = "build"       # CRA output
 
 
 
