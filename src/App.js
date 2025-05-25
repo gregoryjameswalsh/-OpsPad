@@ -5,6 +5,9 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero'
 import FeatureCard from './components/FeatureCard';
 
+//I've removed the reference to Logo, so not sure why this doesn't build!
+
+
 function App() {
   return (
 
