@@ -11,7 +11,7 @@ main = "workers-site/index.js"
 command = "npm run build"
 
 [site]
-bucket = "./build"       # CRA output
+bucket = "build"       # CRA output
 
 
 
